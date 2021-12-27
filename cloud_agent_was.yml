@@ -35,7 +35,7 @@
                                             "files": {
                                                     "collect_list": [
                                                             {
-                                                                    "file_path": "/opt/tomcat/latest/logs/localhost_access_log.2021-12-22.log",
+                                                                    "file_path": "/opt/tomcat/latest/logs/localhost_access_log.{{ ansible_date_time.date }}.log",
                                                                     "log_group_name": "was-log",
                                                                     "log_stream_name": "{instance_id}"
                                                             }
